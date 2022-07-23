@@ -1,0 +1,737 @@
+
+<!-- 
+
+Float is used to positioning and formatting content
+
+float property values :
+
+left
+right
+none
+inherit
+
+ -->
+ <!-- 
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+
+	<style type="text/css">
+		
+		img {
+			float: left;
+			width: 150px;
+			height: 150px;
+			margin-right: 15px;
+		}
+	</style>
+</head>
+<body>
+
+	<p><img src="https://onlinejpgtools.com/images/examples-onlinejpgtools/mouse.jpg"> Anything about this image... Anything about this image... Anything about this image... Anything about this image... Anything about this image... Anything about this image... Anything about this image... Anything about this image... Anything about this image... Anything about this image... Anything about this image... Anything about this image... Anything about this image... Anything about this image... Anything about this image... Anything about this image... Anything about this image... Anything about this image... Anything about this image... Anything about this image... Anything about this image... Anything about this image... Anything about this image... Anything about this image... Anything about this image... Anything about this image... Anything about this image... Anything about this image... Anything about this image... Anything about this image... Anything about this image... Anything about this image... Anything about this image... </p>
+
+</body>
+</html>
+
+
+ -->
+
+<!-- 
+ <!DOCTYPE html>
+ <html>
+
+ <head>
+ 	<meta charset="utf-8">
+ 	<title></title>
+
+	<style type="text/css">
+		
+		img {
+			width: 150px;
+			height: 150px;
+			margin-left: 15px;
+		}
+	</style>
+ </head>
+ <body>
+
+ 	<img src="https://onlinejpgtools.com/images/examples-onlinejpgtools/mouse.jpg"><img src="https://onlinejpgtools.com/images/examples-onlinejpgtools/mouse.jpg"><img src="https://onlinejpgtools.com/images/examples-onlinejpgtools/mouse.jpg">
+ 
+ </body>
+ </html> -->
+<!-- 
+
+ <!DOCTYPE html>
+ <html>
+ <head>
+ 	<meta charset="utf-8">
+ 	<title></title>
+ 	<style type="text/css">
+ 		div {
+ 			float: left;
+ 			padding: 15px;
+ 		}
+
+ 		.one {
+ 			background: seagreen;
+ 		}
+
+ 		.two {
+ 			background: hotpink;
+ 		}
+
+ 		.three {
+ 			background: lightgrey;
+ 		}
+ 	</style>
+ </head>
+ <body>
+
+ 	<div class="one"> ONE </div>
+ 	<div class="two"> TWO </div>
+ 	<div class="three"> THREE </div>
+ 
+ </body>
+ </html> -->
+
+<!-- 
+ <!DOCTYPE html>
+ <html>
+ <head>
+ 	<meta charset="utf-8">
+ 	<title></title>
+ 	<style type="text/css">
+ 		
+ 		div {
+ 			padding: 8px;
+ 			border: 2px double seagreen;
+ 		}
+
+ 		.one {
+ 			float: right;
+ 		}
+
+ 		.two {
+ 			float: right;
+ 		}
+
+ 		.three {
+ 			overflow: auto;
+ 		}
+
+ 		img {
+ 			width: 150px;
+ 			height: 150px;
+ 		}
+
+
+ 	</style>
+ </head>
+ <body>
+ 	<div>
+ 		<img class="one" src="https://onlinejpgtools.com/images/examples-onlinejpgtools/mouse.jpg"> Anything about this image... Anything about this image... Anything about this image... Anything about this image... Anything about this image... Anything about this image... Anything about this image... Anything about this image... Anything about this image... Anything about this image... Anything about this image... Anything about this image... Anything about this image... Anything about this image... Anything about this image... Anything about this image... Anything about this image... Anything about this image... Anything about this image... Anything about this image... Anything about this image... 
+ 	</div><br><br><br><br><br><br><br>
+
+
+ 	<div class="three">
+ 		<img class="two" src="https://onlinejpgtools.com/images/examples-onlinejpgtools/mouse.jpg"> Anything about this image... Anything about this image... Anything about this image... Anything about this image... Anything about this image... Anything about this image... Anything about this image... Anything about this image... Anything about this image... Anything about this image... Anything about this image... Anything about this image... Anything about this image... Anything about this image... Anything about this image... Anything about this image... Anything about this image... Anything about this image... Anything about this image... Anything about this image... Anything about this image... 
+ 	</div>
+ 
+ </body>
+ </html> -->
+
+<!-- 
+ <!DOCTYPE html>
+ <html>
+ <head>
+ 	<meta charset="utf-8">
+ 	<title></title>
+ 	<style type="text/css">
+ 		body {
+ 			background-image: url("https://onlinejpgtools.com/images/examples-onlinejpgtools/mouse.jpg");
+ 			background-repeat: no-repeat;
+ 		}
+ 	</style>
+ </head>
+ <body>
+ 
+ </body>
+ </html> -->
+
+<!-- 
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+
+	<style type="text/css">
+		body {
+			background-image: url("https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/5eeea355389655.59822ff824b72.gif");
+			background-repeat: no-repeat;
+			background-position: right top;
+			margin-right: 200px;
+			background-attachment: scroll;
+		}
+	</style>
+</head>
+<body>
+
+	<h1> Walking Cat </h1>
+
+	<p> write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... </p>
+	<p> write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... </p>
+	<p> write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... </p>
+	<p> write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... </p>
+	<p> write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... </p>
+	<p> write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... </p>
+	<p> write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... </p>
+	<p> write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... </p>
+	<p> write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... </p>
+	<p> write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... </p>
+	<p> write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... </p>
+	<p> write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... </p>
+	<p> write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... </p>
+	<p> write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... </p>
+	<p> write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... </p>
+	<p> write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... </p>
+	<p> write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... </p>
+	<p> write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... </p>
+	<p> write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... </p>
+	<p> write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... </p>
+	<p> write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... write anything... </p>
+
+</body>
+</html> -->
+<!-- 
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<style type="text/css">
+		img {
+			position: absolute;
+			z-index: -1;
+			width: 50%;
+		}
+
+		p {
+			color: red;
+			font-size: 25px;
+			font-family: cursive;
+			font-style: oblique;
+		}
+	</style>
+</head>
+<body>
+
+	<h1> My Heading</h1>
+	<img src="http://www.noaa.gov/sites/default/files/styles/landscape_width_1275/public/legacy/image/2019/Jun/PHOTO-dark%20and%20stormy%20cloudscape-istock-1125x534-Landscape.jpg">
+	<p> Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... </p>
+
+</body>
+</html> -->
+
+<!-- 
+
+z-index : specifies stack order of an element
+
+ -->
+
+
+<!-- 
+
+overflow property values :
+
+visible
+hidden
+scroll
+auto
+
+ -->
+<!-- 
+ <!DOCTYPE html>
+ <html>
+ <head>
+ 	<meta charset="utf-8">
+ 	<title></title>
+ 	<style type="text/css">
+ 		div {
+ 			background: lightcoral;
+ 			width: 150px;
+ 			height: 70px;
+ 			border: 2px solid black;
+ 			overflow: auto;
+ 		}
+ 	</style>
+ </head>
+ <body>
+
+ 	<div> Anything.. Anything.. Anything.. Anything.. Anything.. Anything.. Anything.. Anything.. Anything.. Anything.. Anything.. Anything.. Anything.. Anything.. Anything.. Anything.. Anything.. Anything.. Anything.. Anything.. Anything.. Anything.. Anything.. Anything.. Anything.. Anything.. Anything.. Anything.. Anything.. Anything.. Anything.. Anything.. Anything.. Anything.. Anything.. Anything.. Anything.. Anything.. Anything.. Anything.. Anything.. Anything.. Anything.. Anything.. Anything.. Anything.. Anything.. Anything.. Anything.. Anything.. Anything.. Anything.. Anything.. Anything.. Anything.. Anything.. Anything.. Anything.. Anything.. Anything.. </div>
+ 
+ </body>
+ </html> -->
+
+<!-- 
+ <!DOCTYPE html>
+ <html>
+ <head>
+ 	<meta charset="utf-8">
+ 	<title></title>
+ 	<style type="text/css">
+ 		div.sticky {
+ 			position: sticky;
+ 			padding: 5px;
+ 			top: 0;
+ 			background: lightgreen;
+ 			border: 2px solid seagreen;
+ 		}
+ 	</style>
+ </head>
+ <body>
+
+ 	<div class="sticky"> This is sticky... </div>
+
+ 	<div style="padding-bottom: 1500px;">
+ 		Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... Anything... 
+ 	</div>
+ 
+ </body>
+ </html> -->
+
+ <!-- 
+
+position property values :
+
+static
+relative
+fixed
+absolute
+sticky
+
+  -->
+<!-- 
+  <!DOCTYPE html>
+  <html>
+  <head>
+  	<meta charset="utf-8">
+  	<title></title>
+  	<style type="text/css">
+  		div.events {
+  			margin: 5px;
+  			width: 150px;
+  			border: 2px solid #ccc;
+  			float: left;
+  		}
+
+  		div.events:hover {
+  			border: 2px solid #777;
+  		}
+
+  		div.events img {
+  			width: 100%;
+  			height: auto;
+  		}
+
+  		div.desc {
+  			padding: 15px;
+  			text-align: center;
+  		}
+  	</style>
+  </head>
+  <body>
+
+  	<div class="events">
+  		<a href="https://images.livemint.com/img/2021/09/21/1600x900/rain-Weather--1_1632245851316_1632245928797.jpg">
+  			<img src="https://images.livemint.com/img/2021/09/21/1600x900/rain-Weather--1_1632245851316_1632245928797.jpg" width="500px" height="300px">
+  		</a>
+  		<div class="desc"> About Event </div>
+  	</div>
+
+  	<div class="events">
+  		<a href="http://www.noaa.gov/sites/default/files/styles/landscape_width_1275/public/legacy/image/2019/Jun/PHOTO-dark%20and%20stormy%20cloudscape-istock-1125x534-Landscape.jpg">
+  			<img src="http://www.noaa.gov/sites/default/files/styles/landscape_width_1275/public/legacy/image/2019/Jun/PHOTO-dark%20and%20stormy%20cloudscape-istock-1125x534-Landscape.jpg" width="500px" height="300px">
+  		</a>
+  		<div class="desc"> About Event </div>
+  	</div>
+
+  	<div class="events">
+  		<a href="https://images.pexels.com/photos/1118873/pexels-photo-1118873.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500">
+  			<img src="https://images.pexels.com/photos/1118873/pexels-photo-1118873.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" width="500px" height="300px">
+  		</a>
+  		<div class="desc"> About Event </div>
+  	</div>
+  
+  </body>
+  </html> -->
+<!-- 
+  <!DOCTYPE html>
+  <html>
+  <head>
+  	<meta charset="utf-8">
+  	<title></title>
+  	<style type="text/css">
+  		img:hover {
+  			opacity: 0.7;
+  		}
+  	</style>
+  </head>
+  <body>
+
+<img src="https://images.livemint.com/img/2021/09/21/1600x900/rain-Weather--1_1632245851316_1632245928797.jpg" width="500px" height="300px">
+
+<img src="http://www.noaa.gov/sites/default/files/styles/landscape_width_1275/public/legacy/image/2019/Jun/PHOTO-dark%20and%20stormy%20cloudscape-istock-1125x534-Landscape.jpg" width="500px" height="300px">
+  		
+
+ <img src="https://images.pexels.com/photos/1118873/pexels-photo-1118873.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" width="500px" height="300px">
+  		
+  
+  </body>
+  </html> -->
+
+<!-- 
+
+  <header></header>
+  <nav></nav>
+  <section></section>
+  <footer></footer>
+  <details></details>
+  <aside></aside>
+  <article></article> -->
+<!-- 
+  <!DOCTYPE html>
+  <html>
+  <head>
+  	<meta charset="utf-8">
+  	<meta name="viewport" content="width=device-width, initial-scale=1">
+  	<title></title>
+  	<style type="text/css">
+  		
+  		* {
+  			box-sizing: border-box;
+  		}
+
+  		body {
+  			font-family: Arial, Helvetica, sans-serif;
+  		}
+
+  		header {
+  			background: grey;
+  			text-align: center;
+  			font-size: 32px;
+  			color: white;
+  			padding: 25px;
+  		}
+
+  		nav {
+  			float: left;
+  			width: 28%;
+  			height: 290px;
+  			background-color: #ccc;
+  			padding: 20px;
+  		}
+
+  		nav ul {
+  			list-style-type: none;
+  		}
+
+  		article {
+  			float: left;
+  			padding: 20px;
+  			width: 72%;
+  			background: #f1f1f1;
+  			height: 290px;
+  		}
+
+  		section::after {
+  			display: table;
+  			clear: both;
+  			content: "";
+  		}
+  		footer {
+  			background: #777;
+  			text-align: center;
+  			color: white;
+  		}
+
+  		@media (max-width: 600px)
+  		{
+  			nav, article {
+  				width: 100%;
+  				height: auto;
+  			}
+  		}
+  	</style>
+  </head>
+  <body>
+
+  	<header>
+  		<h2> Photography Blog </h2>
+  	</header>
+
+  	<section>
+  		<nav>
+  			<ul>
+  				<li><a href="#"> Home </a></li>
+  				<li><a href="#"> News </a></li>
+  				<li><a href="#"> Events </a></li>
+  				<li><a href="#"> Contact </a></li>
+  			</ul>
+  		</nav>
+
+  		<article>
+  			<h1> Street Photography </h1>
+  			<p> Anything about this... Anything about this... Anything about this... Anything about this... Anything about this... Anything about this... Anything about this... Anything about this... Anything about this... Anything about this... Anything about this... Anything about this... Anything about this... Anything about this... Anything about this... Anything about this... Anything about this... Anything about this... Anything about this... Anything about this... Anything about this... Anything about this... Anything about this... </p>
+  			<p> Anything about this... Anything about this... Anything about this... Anything about this... Anything about this... Anything about this... Anything about this... Anything about this... Anything about this... Anything about this... Anything about this... Anything about this... Anything about this... Anything about this... Anything about this... Anything about this... Anything about this... Anything about this... Anything about this... Anything about this... Anything about this... Anything about this... Anything about this... </p>
+  		</article>
+  	</section>
+
+  	<footer>
+  		<p>Footer</p>
+  	</footer>
+  
+  </body>
+  </html> -->
+
+<!-- 
+  <!DOCTYPE html>
+  <html>
+  <head>
+  	<meta charset="utf-8">
+  	<title></title>
+  </head>
+  <body>
+  
+  </body>
+  </html> -->
+
+
+  <!-- 
+
+
+Pseduo-Class Selectors : when you mouses over any element  	
+
+selector : pseudo-class {
+	property: value;
+}
+
+
+
+
+Pseudo-Element used for  :
+
+	:: styling first letter or line or element
+	:: content insertion before or after the content of any element
+
+selector :: pseudo-element {
+	property: value;
+}
+
+   -->
+<!-- 
+   <!DOCTYPE html>
+   <html>
+   <head>
+   	<meta charset="utf-8">
+   	<title></title>
+   	<style type="text/css">
+   		p {
+   			display: none;
+   			background: seagreen;
+   			padding: 20px;
+   		}
+
+   		div:hover p {
+   			display: block;
+   		}
+   	</style>
+   </head>
+   <body>
+
+   	<h2> Pseudo-Class Selector</h2>
+
+   	<div> Hover over this element 
+   		<p>Hey guys...</p>
+   	</div>
+
+   
+   </body>
+   </html> -->
+
+<!-- 
+   <!DOCTYPE html>
+   <html>
+   <head>
+   	<meta charset="utf-8">
+   	<title></title>
+   	<style type="text/css">
+   		
+   		p::first-letter {
+   			color: red;
+   			font-size: xx-large;
+   		}
+
+   		p::first-line {
+   			color: blue;
+   			font-variant: small-caps;
+   		}
+
+   	</style>
+   </head>
+   <body>
+
+   	<h2> Pseudo-Element Selector</h2>
+
+   	<p> Write anything for this selector... Write anything for this selector... Write anything for this selector... Write anything for this selector... Write anything for this selector... Write anything for this selector... Write anything for this selector... Write anything for this selector... Write anything for this selector... Write anything for this selector... Write anything for this selector... Write anything for this selector... Write anything for this selector... Write anything for this selector... Write anything for this selector... Write anything for this selector... Write anything for this selector... </p>
+   
+   </body>
+   </html> -->
+
+<!-- 
+   <!DOCTYPE html>
+   <html>
+   <head>
+   	<meta charset="utf-8">
+   	<title></title>
+
+   	<style type="text/css">
+   		a[target=_blank] {
+   			background: yellow;
+   		}
+   	</style>
+   </head>
+   <body>
+
+   <a href="https://twitter.com/i/flow/login">Twitter</a> 
+   <a target="_blank" href="https://www.facebook.com/login/">Facebook</a>
+
+   </body>  
+   </html> -->
+
+
+<!-- 
+
+COMBINATORS :
+
+descendant selectors (space)
+child (>)
+general sibling (~)
+adjacent sibling (+)
+
+ -->
+<!-- 
+ <!DOCTYPE html>
+ <html>
+ <head>
+ 	<meta charset="utf-8">
+ 	<title></title>
+ 	<style type="text/css">
+ 		div p {
+ 			background: yellow;
+ 		}
+ 	</style>
+ </head>
+ <body>
+
+ 	<div>
+ 		<p> Para 1 </p>
+ 		<p> Para 2 </p>
+ 		<p> Para 3 </p>
+ 		<section> <p>Para 4</p> </section>
+ 		<p> Para 5 </p>
+ 	</div>
+ 		<p> Para 6 </p>
+ 		<p> Para 7 </p>
+ 
+ </body>
+ </html>
+ -->
+
+<!-- 
+ <!DOCTYPE html>
+ <html>
+ <head>
+ 	<meta charset="utf-8">
+ 	<title></title>
+ 	<style type="text/css">
+ 		div > p {
+ 			background: yellow;
+ 		}
+ 	</style>
+ </head>
+ <body>
+
+ 	<div>
+ 		<p> Para 1 </p>
+ 		<p> Para 2 </p>
+ 		<p> Para 3 </p>
+ 		<section> <p>Para 4</p> </section>
+ 		<p> Para 5 </p>
+ 	</div>
+ 		<p> Para 6 </p>
+ 		<p> Para 7 </p>
+ 
+ </body>
+ </html>
+ -->
+
+<!-- 
+ <!DOCTYPE html>
+ <html>
+ <head>
+ 	<meta charset="utf-8">
+ 	<title></title>
+ 	<style type="text/css">
+ 		div ~ p {
+ 			background: yellow;
+ 		}
+ 	</style>
+ </head>
+ <body>
+ 		<p> Para 1 </p>
+
+ 	<div>
+ 		<p> Para 2 </p>
+ 	</div>
+ 		<p> Para 3 </p>
+ 		<section> <p>Para 4</p> </section>
+ 		<p> Para 5 </p>
+ 
+ </body>
+ </html>
+ -->
+
+
+
+ <!DOCTYPE html>
+ <html>
+ <head>
+ 	<meta charset="utf-8">
+ 	<title></title>
+ 	<style type="text/css">
+ 		div + p {
+ 			background: yellow;
+ 		}
+ 	</style>
+ </head>
+ <body>
+
+ 	<div>
+ 		<p> Para 1 </p>
+ 		<p> Para 2 </p>
+ 	</div>
+ 		<p> Para 3 </p>
+ 		<p> Para 4 </p>
+ 	<div>
+ 		<p> Para 5 </p>
+ 		<p> Para 6 </p>
+ 	</div>
+ 		<p> Para 7 </p>
+ 		<p> Para 8 </p>
+ 
+ </body>
+ </html>

@@ -1,0 +1,219 @@
+
+<!-- 
+
+Non-Semantic : Tells you nothing about its content
+
+<div></div>(block level element)
+<span></span>(inline level element)
+
+
+Semantic : clearly defines its content
+
+<form></form>
+<table></table>
+<article></article>
+<header></header>
+<footer></footer>
+<section></section>
+<aside></aside> -->
+
+<!-- 
+Block Level Elements : Always takes up the full width
+
+<div></div>
+<article></article>
+<header></header>
+<footer></footer>
+<h1>-<h6>
+<aside></aside>
+<p></p>
+<ol></ol>
+<ul></ul>
+<table></table>
+<li></li>
+<hr>
+<nav></nav>
+
+
+Inline Elements : Takes up as much width required.
+
+<a href=""></a>
+<b></b>
+<i></i>
+<strong></strong>
+<em></em>
+<abbr></abbr>
+<span></span>
+<sub></sub>
+<sup></sup>
+<br>
+<textarea></textarea>
+<button></button>
+<img src="">
+<small></small>
+<label></label>
+<input type="" name=""> -->
+
+<!-- 
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+</head>
+<body>
+
+	<div style="border: 2px solid;"> This is your div element</div><br><br>
+
+	<span style="border: 2px solid;"> This is your inline element</span>
+
+</body>
+</html> -->
+<!-- 
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+</head>
+<body>
+	<form>
+		<fieldset>
+
+			<legend> Enrollment Form :</legend><br>
+
+		<label for="fname"> First Name : </label><br>
+		<input type="text" id="fname" name="fname"><br><br>
+
+
+		<label for="lname"> Last Name : </label><br>
+		<input type="text" id="lname" name="lname"><br><br><hr><br><br>
+
+
+<h2> Gender : </h2><br>
+
+		<input type="radio" id="male" name="gender" value="Male">
+		<label for="male">Male</label><br><br>
+
+		<input type="radio" id="female" name="gender" value="Female">
+		<label for="female">Female</label><br><br>
+
+		<input type="radio" id="other" name="gender" value="Other">
+		<label for="other">Other</label><br><br><hr><br><br>
+
+
+<h2> Date of Birth : </h2><br>
+
+		<label for="dob_time"> DOB (Date & Time) : </label><br><br>
+		<input type="datetime-local" id="dob_time" name="dob_time"><br><br><hr><br><br>
+
+<h2> ID Proof :</h2><br>
+
+		<input type="checkbox" id="aadharcard" name="aadharcard" value="ac">
+		<label for="aadharcard"> Aadhar Card </label><br><br>
+
+		<input type="checkbox" id="pancard" name="pancard" value="pc">
+		<label for="pancard"> Pan Card </label><br><br>
+
+		<input type="checkbox" id="voterid" name="voterid" value="vid">
+		<label for="voterid"> Voter ID </label><br><br><hr><br><br>
+
+
+		<label for="country" style="font-size: 25px;"> Your Country : </label><br><br>
+		<select id="country" name="country">
+			<option value="india">India</option>
+			<option value="russia">Russia</option>
+			<option value="canada">Canada</option>
+			<option value="us">US</option>
+			<option value="china">China</option>
+		</select><br><br><hr><br><br>
+
+		<textarea name="feedback" rows="25" cols="60"> Write anything... </textarea><br><br>
+
+		<input type="submit" value="Submit">
+
+		</fieldset>
+
+
+
+	</form>
+
+</body>
+</html> -->
+
+
+<!-- 
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<style type="text/css">
+		input[type=text], select {
+			box-sizing: border-box;
+			border: 2px solid #ccc;
+			display: inline-block;
+			margin: 8px 0;
+			width: 100%;
+			padding: 10px 20px;
+			border-radius: 5px;
+		}
+
+		input[type=submit] {
+			width: 50%;
+			border: none;
+			margin: 8px 0;
+			padding: 10px 20px;
+			border-radius: 5px;
+			cursor: pointer;
+			color: maroon;
+			background: coral;
+		}
+
+		input[type=submit]:hover {
+			background: lightcoral;
+		}
+
+		div {
+			border-radius: 5px;
+			padding: 20px;
+			background: #f2f2f2;
+		}
+	</style>
+</head>
+<body>
+	<form>
+		<fieldset>
+
+			<legend> Enrollment Form :</legend><br>
+
+		<label for="fname"> First Name : </label><br>
+		<input type="text" id="fname" name="fname" placeholder="First name..."><br><br>
+
+
+		<label for="lname"> Last Name : </label><br>
+		<input type="text" id="lname" name="lname" placeholder="Last name..."><br><br><hr><br><br>
+
+
+
+		<label for="country"> Your Country : </label><br><br>
+		<select id="country" name="country">
+			<option value="india">India</option>
+			<option value="russia">Russia</option>
+			<option value="canada">Canada</option>
+			<option value="us">US</option>
+			<option value="china">China</option>
+		</select><br><br><hr><br><br>
+
+		<input type="submit" value="Submit">
+
+		</fieldset>
+
+
+
+	</form>
+
+</body>
+</html> -->

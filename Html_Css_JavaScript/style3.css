@@ -1,0 +1,171 @@
+/* .block1:hover{
+    list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+li a{
+    display: block;
+  width: 60px;
+  background-color: #dddddd;
+} */
+.header{
+  background-image:url("https://c4.wallpaperflare.com/wallpaper/478/26/523/purple-white-background-bright-wallpaper-preview.jpg") ;
+    /* background-image: url("https://png.pngtree.com/background/20210709/original/pngtree-color-gradient-texture-art-picture-image_916760.jpg"); */
+    text-align: center;
+    min-height: 200px;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    /* Needed to position the navbar */
+    position: relative;
+}
+
+ul li{
+    padding: 60px 0px;
+    display: inline-block;
+    margin: -7px;
+}
+
+ul li a{
+    text-decoration: none;
+    font-size: 30px;
+    color: azure;
+    border: 2px solid lightyellow;
+    padding: 10px 10px 10px 10px;
+    background-color: purple;
+}
+
+ul{
+    margin-top: 50px;
+}
+
+ul li a:hover{
+  
+    background-color: yellowgreen;
+    color: aliceblue;
+    transition: 0.5s;
+}
+.vertical-menu{
+    width: 350px;
+    text-align: center;
+   
+}
+.vertical-menu li a {
+    /* padding: 8px;
+     border: solid 1px blue; */
+    margin-top: -20px;
+    font-size: 20px;
+    background-color: purple;
+    color: white;
+    display: block; 
+    padding: 30px;
+    text-decoration: none;
+    padding: 10px 10px 10px 10px;
+    /* border: 2px solid lightyellow; */
+    border: 2px solid;
+  }
+
+  .vertical-menu li{
+    list-style-type: none;
+    margin: 20px;
+   
+   
+  }
+
+.vertical-menu li a:hover {
+    background-color: yellowgreen;
+    color: aliceblue;
+    transition: 0.5s;
+  }
+
+
+  .vertical-menu{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+  }
+
+  .options{
+    width: 25%;
+  }
+
+  .second{
+    width: 50%;
+  }
+
+  .third{
+    width: 25%;
+  }
+
+  .pagination {
+    display: inline-block;
+  }
+
+  .pagination a {
+    color: black;
+    /* float: left; */
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+
+  .pagination {
+    display: inline-block;
+  }
+
+  .pagination a:hover:not(.active) {background-color: #ddd;}
+
+ /* footer{
+    height: 6vh;
+    /* position: relative; */
+    /*background-position: center; */
+    /* text-align: center; */
+    /* background-image: url("https://c4.wallpaperflare.com/wallpaper/478/26/523/purple-white-background-bright-wallpaper-preview.jpg"); */
+    /* background-image: url("https://www.freecodecamp.org/news/content/images/size/w2000/2021/06/w-qjCHPZbeXCQ-unsplash.jpg"); */
+    /* text-align: center; */
+    /* padding-top: 20px; */
+    /* background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover; */
+    /* overflow: hidden; */
+    /* position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+  }  */
+  /* .numbers{ */
+
+    /* position: absolute; */
+    /* bottom: 20px;
+    right: 20px; */
+    /* text-align: center; */
+    /* background-color: black;
+    color: white; */
+    /* padding-left: 20px;
+    padding-right: 20px;
+  } */
+  .pagination{
+    background-image: url("https://c4.wallpaperflare.com/wallpaper/478/26/523/purple-white-background-bright-wallpaper-preview.jpg");
+    /* height: 50px;
+    width: 1000px; */
+    /* text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover; */
+    text-align: center;
+    min-height: 50px;
+    min-width: 1800px;
+    margin-top: 10px;
+    padding: 10px ;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    /* Needed to position the navbar */
+    position: relative;
+  }
+  
+  
+ 

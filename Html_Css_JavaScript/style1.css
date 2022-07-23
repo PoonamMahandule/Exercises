@@ -1,0 +1,56 @@
+div{
+    text-align: center;
+}
+
+ul li{
+    display: inline-block;
+    margin: -4px;
+}
+
+ul li a{
+    text-decoration: none;
+    font-size: 30px;
+    color: azure;
+    border: 4px solid black;
+    padding: 10px 10px 10px 10px;
+    background-color: black;
+}
+
+ul{
+    margin-top: 50px;
+}
+
+ul li a:hover{
+  
+    background-color: yellowgreen;
+    color: aliceblue;
+    transition: 0.5s;
+}
+
+.vertical-menu{
+    width: 350px;
+    text-align: center;
+   
+}
+.vertical-menu li a {
+    margin-top: -20px;
+    font-size: 30px;
+    background-color: black;
+    color: white;
+    display: block;
+    padding: 30px;
+    text-decoration: none;
+    padding: 10px 10px 10px 10px;
+  }
+
+  .vertical-menu li{
+    list-style-type: none;
+    margin: 20px;
+   
+  }
+
+.vertical-menu li a:hover {
+    background-color: yellowgreen;
+    color: aliceblue;
+    transition: 0.5s;
+  }

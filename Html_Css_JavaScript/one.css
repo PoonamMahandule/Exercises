@@ -1,0 +1,32 @@
+/*
+
+  	body {
+  		background: linen;
+  	}  	
+
+  	h1 {
+  		color: maroon;
+  		text-align: center;
+  	}
+
+  	img {
+  		width: 80px;
+  		height: 50px;
+  	}*/
+
+
+  	table, th, td {
+  		border: 2px ridge skyblue;
+  		/*border-collapse: collapse;*/
+  		border-radius: 10px;
+
+  	}
+
+  	td {
+  		text-align: center;
+  	}
+
+  	th, td {
+  		padding: 10px;
+  		background: skyblue;
+  	}

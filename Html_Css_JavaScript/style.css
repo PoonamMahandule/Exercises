@@ -1,0 +1,23 @@
+.nav-bar ul li a{
+    text-decoration: none;
+    margin: 4px 4px 4px 4px;
+    font-size: 30px;
+}
+.nav-bar ul li{
+    display: inline-block;
+    border: 2px solid black;
+    margin: -3px;
+}
+div{
+    border: 2px solid black;
+    width: 10%;
+}
+.social-links ul li a{
+    text-decoration: none;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.social-links ul li{
+    list-style-type: none;
+}
