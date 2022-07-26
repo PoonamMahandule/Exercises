@@ -1,0 +1,32 @@
+<!-- JavaScript Program to Reverse a String -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+      
+function reverseString(str) {
+
+        // empty string
+                let newString = "";
+                for (let i = str.length - 1; i >= 0; i--) {
+                    newString += str[i];
+                }
+                return newString;
+                }
+
+                // take input from the user
+                const string = prompt('Enter a string: ');
+                 document.write("Original String := " + string);
+                //  document.write("<br");
+                const result = reverseString(string);
+                document.write(" <br>" +"After reverse string := " + result);
+    </script>
+</body>
+</html>
+/Users/pmt8258/Downloads/drive-download-20220722T072032Z-001/Javascript_Assignment

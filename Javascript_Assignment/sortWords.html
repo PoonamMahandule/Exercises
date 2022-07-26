@@ -1,0 +1,26 @@
+<!-- JavaScript Program to Sort Words in Alphabetical Order -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+                const string = prompt('Enter a sentence: ');
+                
+                const words = string.split(' ');
+            
+                words.sort();
+                
+                console.log('The sorted words are:');
+                
+                for (const element of words) {
+                    document.write("<br>");
+                document.write(element);
+ }
+    </script>
+</body>
+</html>

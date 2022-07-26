@@ -1,0 +1,29 @@
+<!-- JavaScript Program to Remove Duplicates From Array -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+         function getUnique(arr)
+         {
+                let uniqueArr = [];
+                
+                // loop through array
+                for(let i of arr) {
+                    if(uniqueArr.indexOf(i) === -1) {
+                        uniqueArr.push(i);
+                    }
+                }
+                document.write("After removing duplicate array "+uniqueArr);
+}
+const array = [1, 2, 3, 2, 3];
+document.write("Original array " +array);
+document.write("<br>");
+getUnique(array);
+    </script>
+</body>
+</html>
